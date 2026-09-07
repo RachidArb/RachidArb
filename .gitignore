@@ -52,5 +52,9 @@ logs/
 # Testing & Coverage Reports
 .coverage
 coverage/
-.nyc_output/
+.nyc_output
 *.lcov
+
+# Generator Scripts & Clones
+contribute.py
+github-activity/
