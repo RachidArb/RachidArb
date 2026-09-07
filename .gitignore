@@ -1,0 +1,56 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Editor & IDE Directories
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+
+# Environment & Secrets (NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.jks
+credentials.json
+secrets.yml
+
+# Build Artifacts & Dependencies
+target/
+build/
+dist/
+out/
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs & Temporary Files
+logs/
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Testing & Coverage Reports
+.coverage
+coverage/
+.nyc_output/
+*.lcov
